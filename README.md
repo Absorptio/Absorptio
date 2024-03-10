@@ -1,0 +1,10 @@
+blank_image = PhotoImage(file="resources/blank.png")
+rock_player = PhotoImage(file="resources/rock_player.png")
+rock_player_ado = rock_player.subsample(3, 3)
+paper_player = PhotoImage(file="resources/paper_player.png")
+paper_player_ado = paper_player.subsample(3, 3)
+scissor_player = PhotoImage(file="resources/scissor_player.png")
+scissor_player_ado = scissor_player.subsample(3, 3)
+rock_computer = PhotoImage(file="resources/rock_computer.png")
+paper_computer = PhotoImage(file="resources/paper_computer.png")
+scissor_computer = PhotoImage(file="resources/scissor_computer.png
